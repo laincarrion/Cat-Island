@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "74145590-e76f-4996-9e64-c7d7dff430c6",
+  "name": "meow",
+  "symbol": "sprite_meow",
+  "states": [
+    {
+      "id": "f56a5e4b-9033-48fb-b611-820aed5a54a3",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "9123492e-9ed1-4735-932c-95392d6bb8c7",
+          "frames": [
+            {
+              "id": "ac3cffab-08cd-4ad3-8198-88edc94d0f71",
+              "tiles": [
+                {
+                  "id": "c8a4c065-e99c-4ca3-bd20-1c7a59265704",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "83bc0163-75a0-4496-be95-11ae900f2b54",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "300f5354-8999-47a7-9010-6fa5a3506a94",
+          "frames": [
+            {
+              "id": "313953fb-59d4-47b4-9abc-6c4cb8a2e408",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8ad0cdf9-12ef-4939-88d2-b59007185663",
+          "frames": [
+            {
+              "id": "b3cb53e4-b7b4-411b-86c5-e5c39bff6414",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bf7fa9c5-6f59-4896-85de-30fc2c39e396",
+          "frames": [
+            {
+              "id": "9de35ed0-84a8-4218-a8b0-cb16f0e0ca96",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a450b010-8807-47d0-b677-39a627f56a71",
+          "frames": [
+            {
+              "id": "a6885c82-f195-48ce-8ab0-c9bcb9fdba9f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "03db86a2-92fb-4a0a-afe9-8e1fe28847b5",
+          "frames": [
+            {
+              "id": "8c1ea680-b2e6-478f-a2f2-79e2f1fc3b37",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bbff68db-ea43-4b6c-859d-c25c0961f701",
+          "frames": [
+            {
+              "id": "a201ad9f-2232-426f-b5be-06a1d47f6bf7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f4abb11a-992b-4c26-ba41-d03bbaa5cb31",
+          "frames": [
+            {
+              "id": "17cc586e-6c1b-492c-bb87-68ae7f8b9509",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "meow.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "beae279bc4c2f94fad50f48f1e78d7788259e87e"
+}

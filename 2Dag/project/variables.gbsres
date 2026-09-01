@@ -65,6 +65,21 @@
       "id": "12",
       "name": "PushedIceBlock",
       "symbol": "var_pushediceblock"
+    },
+    {
+      "id": "a239babc-a051-4216-81f1-8e3bc73b8dc2__L0",
+      "name": "foundCat",
+      "symbol": "var_foundcat"
+    },
+    {
+      "id": "b078ea2c-480d-4222-a828-d8600fadb0d7__L0",
+      "name": "foundCat",
+      "symbol": "var_foundcat_0"
+    },
+    {
+      "id": "66f9241e-0733-48d0-8372-a1597ad55a60__L0",
+      "name": "foundCat",
+      "symbol": "var_foundcat_1"
     }
   ],
   "constants": []
