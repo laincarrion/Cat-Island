@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "74145590-e76f-4996-9e64-c7d7dff430c6",
-  "name": "meow",
-  "symbol": "sprite_meow",
+  "id": "67ed9bdf-32a2-4856-aec3-b3289eddbab9",
+  "name": "lostcat1",
+  "symbol": "sprite_lostcat1",
   "states": [
     {
-      "id": "f56a5e4b-9033-48fb-b611-820aed5a54a3",
+      "id": "c3099630-07c7-4ca1-aeba-59fba4b313b7",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "9123492e-9ed1-4735-932c-95392d6bb8c7",
+          "id": "6be22faa-d22b-4dab-b498-f4baabde3d55",
           "frames": [
             {
-              "id": "ac3cffab-08cd-4ad3-8198-88edc94d0f71",
+              "id": "a7918aad-e345-4f8c-88a9-3ea428734912",
               "tiles": [
                 {
-                  "id": "c8a4c065-e99c-4ca3-bd20-1c7a59265704",
+                  "id": "677fbe97-2d59-4f31-aafb-e3df4366f9c1",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "83bc0163-75a0-4496-be95-11ae900f2b54",
+                  "id": "fe379577-2b80-451a-b00a-efd0f13fdc75",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "300f5354-8999-47a7-9010-6fa5a3506a94",
+          "id": "63ba8b47-6b74-4936-beac-b79651747ce4",
           "frames": [
             {
-              "id": "313953fb-59d4-47b4-9abc-6c4cb8a2e408",
+              "id": "28434e95-7244-4d8f-812f-adbcb1f36b69",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8ad0cdf9-12ef-4939-88d2-b59007185663",
+          "id": "025a085f-c4c7-49c4-9163-4086e49e9980",
           "frames": [
             {
-              "id": "b3cb53e4-b7b4-411b-86c5-e5c39bff6414",
+              "id": "11e4c93c-9142-447c-9ff8-deb538f3db25",
               "tiles": []
             }
           ]
         },
         {
-          "id": "bf7fa9c5-6f59-4896-85de-30fc2c39e396",
+          "id": "777a6acd-db2e-4207-8fec-1beb642f0ecf",
           "frames": [
             {
-              "id": "9de35ed0-84a8-4218-a8b0-cb16f0e0ca96",
+              "id": "15ea5d23-29c6-47bc-87b5-94bf1c0d7f40",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a450b010-8807-47d0-b677-39a627f56a71",
+          "id": "23927abf-81ae-45c1-92a2-73d72af0d975",
           "frames": [
             {
-              "id": "a6885c82-f195-48ce-8ab0-c9bcb9fdba9f",
+              "id": "98e95a13-3b7d-44c2-9468-8be3cbba9da2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "03db86a2-92fb-4a0a-afe9-8e1fe28847b5",
+          "id": "0ec9d2a2-35a9-4d46-bb36-9e9a5b04662f",
           "frames": [
             {
-              "id": "8c1ea680-b2e6-478f-a2f2-79e2f1fc3b37",
+              "id": "958aeb45-f0d0-4e1b-b111-1c4e9c37c7d8",
               "tiles": []
             }
           ]
         },
         {
-          "id": "bbff68db-ea43-4b6c-859d-c25c0961f701",
+          "id": "1bd80289-99bf-4adc-b07f-5e98a7c2aae3",
           "frames": [
             {
-              "id": "a201ad9f-2232-426f-b5be-06a1d47f6bf7",
+              "id": "cd035e98-6705-42bd-ae34-ef8668349bc9",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f4abb11a-992b-4c26-ba41-d03bbaa5cb31",
+          "id": "6cd34d71-bf0d-440e-810d-f337884a943f",
           "frames": [
             {
-              "id": "17cc586e-6c1b-492c-bb87-68ae7f8b9509",
+              "id": "f4e2adbb-9b27-412a-aa19-ae62ceba9667",
               "tiles": []
             }
           ]
@@ -122,8 +122,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "meow.png",
+  "filename": "lostcat1.png",
   "width": 16,
   "height": 16,
-  "checksum": "beae279bc4c2f94fad50f48f1e78d7788259e87e"
+  "checksum": "0f44ee35825864d28aa85fce9e034d05274d4880"
 }
