@@ -23,13 +23,13 @@
     },
     {
       "id": "4",
-      "name": "Quest1",
-      "symbol": "var_quest1"
+      "name": "readSign",
+      "symbol": "var_readsign"
     },
     {
       "id": "5",
-      "name": "Quest2",
-      "symbol": "var_quest2"
+      "name": "dollars",
+      "symbol": "var_dollars"
     },
     {
       "id": "6",
