@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "c1ff8470-9c29-4118-bb97-dcdcc24779b1",
+  "name": "fatcatpsd",
+  "symbol": "sprite_fatcatpsd",
+  "states": [
+    {
+      "id": "84f7d2d1-4090-49f0-b7a0-ad85e2f67802",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "c4be0ace-56b0-43b2-81e3-d59ff079f33e",
+          "frames": [
+            {
+              "id": "fe8dc83c-d20d-42b6-8303-626ab788b6c4",
+              "tiles": [
+                {
+                  "id": "cef13d26-254e-4548-8a78-d0f1e76dc454",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "948fa0be-d05e-4833-9df4-f03e1dc6fa0a",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "46f78a5b-20eb-4dbf-854c-5e6a1aecf86c",
+          "frames": [
+            {
+              "id": "0141762d-1f51-4918-a19b-18bb365b865e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5ba61933-fa55-4328-b9a3-0dbb4a628a1a",
+          "frames": [
+            {
+              "id": "fb5003f0-5729-400d-b0b0-864b26afa4d5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "526381ad-dece-4546-86d6-564685651eb3",
+          "frames": [
+            {
+              "id": "bf803bc7-8361-48a9-befa-01bb2ced4048",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0ac4d600-680e-4ce8-a685-a940309204c8",
+          "frames": [
+            {
+              "id": "19edacd5-5b6d-4226-aa3a-2a4e9bedf60a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "50f5b55f-f95b-4599-8069-eb30f092d9ab",
+          "frames": [
+            {
+              "id": "de08bbf9-12a3-4f1b-88d9-8a989fa59f42",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a2107e7a-14ab-41d3-a8d2-fe941e2cb7f7",
+          "frames": [
+            {
+              "id": "c6582e80-92b1-418c-9397-8ca0359dc854",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "48891436-7f14-4361-97ee-c13bb1ea12d2",
+          "frames": [
+            {
+              "id": "a1454e16-b45f-4cf1-ab20-2d12929b0814",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "fatcatpsd.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "a6321c30e7303307cc5b15630718715c719ecc00"
+}

@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "67ed9bdf-32a2-4856-aec3-b3289eddbab9",
+  "spriteSheetId": "59da7b4d-210c-4e25-929d-a9874357dd33",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -16,14 +16,139 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_1",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You're lucky,\ny'know?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "71d9487e-130d-4cd4-972e-f17704f7a228"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Erm why?",
+        "falseText": "I'm not ????",
+        "__collapse": true
+      },
+      "id": "c733ecf1-20a4-4f0d-91d9-7d055ce2a2dc"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I didn't charge ya\nfor the ride, duh."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2ffe40c6-45f9-4772-ba71-199c83164d39"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You are. You may\nhave lost yer cat\nbut I took you\nhere FOR FREE.",
+                "....",
+                "Well?",
+                "Say thank you!"
+              ],
+              "__section": "layout",
+              "avatarId": "",
+              "minHeight": 3,
+              "maxHeight": 4,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6e7c6578-9eb9-471d-920e-ddd3a1d56f45"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "L0",
+              "trueText": "Thank you, Charon",
+              "falseText": "Yea, thanks",
+              "__collapse": true
+            },
+            "id": "1db20413-14c8-430c-83cc-b9211b593bbb"
+          }
+        ]
+      },
+      "id": "d7df9ed0-5cd4-4a31-96b6-c78c139aa68c"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 16,
-  "y": 14,
+  "x": 28,
+  "y": 29,
   "_index": 0
 }

@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "20dbeeaa-b5c8-4307-baba-7dae30b25409",
+  "name": "laying cat",
+  "symbol": "sprite_laying_cat",
+  "states": [
+    {
+      "id": "c387b90b-7705-410e-8ee3-ce21f203095c",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "8fa6aa1f-8863-4787-8c73-5ebcd968900f",
+          "frames": [
+            {
+              "id": "d00261ff-cce8-4710-a916-260498bc708a",
+              "tiles": [
+                {
+                  "id": "d9afd81c-aefc-496b-a171-3826b2c5e321",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "13f14f9b-7675-4527-847e-ab2a80d63454",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "da608515-beff-4225-be02-fb38cbaab309",
+          "frames": [
+            {
+              "id": "ec20e23c-5ae6-43b2-8c92-662bc8bc5d45",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0433bd24-3925-45af-8032-dcbab10b6941",
+          "frames": [
+            {
+              "id": "df1ef4a1-4c24-40b3-8340-77e33d37e0ca",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5298a28d-f9df-47a8-8468-7e8770ee08a5",
+          "frames": [
+            {
+              "id": "14c95e31-ec9f-43f0-9ef8-8b933e82851c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f85373db-e8f6-4073-bdff-6c1346b7baed",
+          "frames": [
+            {
+              "id": "e48dca2d-96cd-4baf-97f2-a5f3d62ade45",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b23bc4fb-5202-4ddb-91bb-65ed67a2f824",
+          "frames": [
+            {
+              "id": "50d39e83-012c-4370-a112-e5de6196be09",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5cdf9f54-24c5-466e-9a3b-d32482011476",
+          "frames": [
+            {
+              "id": "379fd6d3-c0a3-43b9-a50a-da75ee2c5a39",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1fe87f09-4ceb-4d46-8fac-255f15957238",
+          "frames": [
+            {
+              "id": "13313dc8-3817-4ee4-9e6b-10610a3651a8",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "laying cat.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "7cf23d39284b386911ef043ab3e1ffb5f9a0726d"
+}

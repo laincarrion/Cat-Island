@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "97c21f43-649e-49b9-9576-d8d3d28bb6ee",
+  "id": "c24caa2a-4de0-4aef-a95f-d55e725bf8f6",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+  "spriteSheetId": "20dbeeaa-b5c8-4307-baba-7dae30b25409",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -16,14 +16,126 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_2",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "She's sleeping..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "0c0dd086-953a-4657-8152-f5fbeef31e08"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Wake",
+        "falseText": "Leave her alone",
+        "__collapse": true
+      },
+      "id": "c481e8ad-1ab9-43cb-b57d-17adb1fb9fea"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Bro, what the fuck\nI'm fucking eepy!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "be8a214d-7ec8-41dd-b880-2d479d79085a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Zzzz...."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1424defa-9967-4244-9462-4d0a55401452"
+          }
+        ]
+      },
+      "id": "6f4f2973-37d4-438e-a0ef-f252b183753a"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 9,
+  "x": 25,
+  "y": 6,
   "_index": 1
 }

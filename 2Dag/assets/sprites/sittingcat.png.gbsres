@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "59da7b4d-210c-4e25-929d-a9874357dd33",
+  "name": "sittingcat",
+  "symbol": "sprite_sittingcat",
+  "states": [
+    {
+      "id": "94f73968-e2fb-4e87-835b-f5467b9b6346",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "32b7aa49-3d59-4cfd-8452-e58e69486851",
+          "frames": [
+            {
+              "id": "f41edbd2-8cb4-4d08-b02e-e643ed9b75f6",
+              "tiles": [
+                {
+                  "id": "84029e48-5d32-476f-8a4a-d2b25fbfbb3a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "042908c9-9699-4aa7-adf4-3ce3479ccae4",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d8ef6e46-850f-4bd9-b042-e572da9a3dd8",
+          "frames": [
+            {
+              "id": "8ca992c0-faaf-43af-bb60-a0a39bfdd9bc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "df05ec75-9a40-452a-b611-83b8e7846772",
+          "frames": [
+            {
+              "id": "c6a54c81-669a-40a7-9082-ccd27b9e9589",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8e9b938f-eac2-4b26-a863-e23df33be9ee",
+          "frames": [
+            {
+              "id": "8e7a4758-b085-4895-a6a2-4e0b1d5f4f44",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f88eecfa-16fa-4def-8e02-7b6d27b94eed",
+          "frames": [
+            {
+              "id": "36e2f59b-9e1a-4fc4-abf0-c42d97ee109c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a131926b-7833-4f38-85b1-177a2b2e4f2f",
+          "frames": [
+            {
+              "id": "df81ed7b-bb99-4478-8188-dd13642d0325",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f06e67a7-7978-4716-b3c7-c0e6e4b399d2",
+          "frames": [
+            {
+              "id": "310dc83e-cd56-4530-898a-628c141a04eb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3938dec1-7856-4af2-b79e-847d91f03c57",
+          "frames": [
+            {
+              "id": "e8cab045-0dc5-4ecb-9cf1-5d674cb48daf",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "sittingcat.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "c074d80c59425bf5e368b1e4cef0ed5930777fc9"
+}

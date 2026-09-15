@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "40596dbb-9fac-4298-b3a0-8c1caf0248d3",
+  "name": "dadock",
+  "symbol": "bg_dadock",
+  "tileColors": "",
+  "filename": "dadock.png",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256
+}
