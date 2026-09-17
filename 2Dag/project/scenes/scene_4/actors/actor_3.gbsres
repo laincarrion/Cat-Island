@@ -1,0 +1,169 @@
+{
+  "_resourceType": "actor",
+  "id": "e03df77c-be7f-47fd-9b2d-0e658c174b1f",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "59da7b4d-210c-4e25-929d-a9874357dd33",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_5",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Eek a bug!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "692dee57-565f-4419-9c3b-b6219978cc58"
+    },
+    {
+      "command": "EVENT_ACTOR_PUSH",
+      "args": {
+        "continue": false,
+        "__collapse": true
+      },
+      "id": "1088e1f0-fde2-4da7-b344-574353029a5a"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L1",
+        "trueText": "Boo!",
+        "falseText": "Can you help me?",
+        "__collapse": true
+      },
+      "id": "a9f159c1-e36b-4f3d-8ca2-4dd12f619082"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L1"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hiss!!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "515ec3ab-ce11-4ec4-b7d8-d44d8d950144"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "cd2b9271-f689-4fe2-8fda-3ccc443b4c21"
+            },
+            "id": "7a04a709-dfd8-457c-86b1-c0ff66efc3b9"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "W-with what?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0598fcab-5f94-4b61-bd54-8a53688e64b3"
+          }
+        ]
+      },
+      "id": "aa00ab7d-7c3e-4ad8-abe7-d88dfb475a68"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operator": "<=",
+        "distance": {
+          "type": "number",
+          "value": 0
+        },
+        "otherActorId": "$self$",
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "12d9b51b-2c94-4709-8ae6-c9ce5a6ad61f"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 37,
+  "y": 21,
+  "_index": 2
+}

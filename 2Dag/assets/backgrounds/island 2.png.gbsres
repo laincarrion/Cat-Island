@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "385d1f7f-1043-461b-9e51-8f78e2f9f8e2",
+  "name": "island 2",
+  "symbol": "bg_island_2",
+  "tileColors": "006a0+",
+  "filename": "island 2.png",
+  "width": 53,
+  "height": 32,
+  "imageWidth": 424,
+  "imageHeight": 256
+}

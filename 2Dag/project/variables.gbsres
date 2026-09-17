@@ -80,6 +80,11 @@
       "id": "66f9241e-0733-48d0-8372-a1597ad55a60__L0",
       "name": "foundCat",
       "symbol": "var_foundcat_1"
+    },
+    {
+      "id": "e03df77c-be7f-47fd-9b2d-0e658c174b1f__L1",
+      "name": "Local 1",
+      "symbol": "var_local_1"
     }
   ],
   "constants": []
