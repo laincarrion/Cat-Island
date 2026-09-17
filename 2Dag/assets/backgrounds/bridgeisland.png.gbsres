@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "81bff264-9d8f-4158-b075-b1137b4629ea",
+  "name": "bridgeisland",
+  "symbol": "bg_bridgeisland",
+  "tileColors": "",
+  "filename": "bridgeisland.png",
+  "width": 62,
+  "height": 32,
+  "imageWidth": 496,
+  "imageHeight": 256
+}
