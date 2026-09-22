@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "65be4399-6eff-40f4-85e1-1cf0b70dcda5",
+  "name": "charon",
+  "symbol": "sprite_charon",
+  "states": [
+    {
+      "id": "5a2fdd51-19c8-4403-8969-c51de86d65dd",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "b0a433dc-66f9-4d6c-8e99-f4b58110ab5e",
+          "frames": [
+            {
+              "id": "c593bf8c-2bcc-48f1-b0ae-e76ec1b6e115",
+              "tiles": [
+                {
+                  "id": "dc2ecb89-e290-4116-9c69-f27ec29543a3",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "2ea16de7-9a15-4cdf-a9ea-6eb262ec1e1e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c49d69f5-e799-4b41-99db-f051501c9be4",
+          "frames": [
+            {
+              "id": "4bcfd353-6255-459b-abef-b430e557cee0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2150f832-92f9-4a05-81ca-9a1963fc883d",
+          "frames": [
+            {
+              "id": "3bbe74b3-42f5-46c8-bd57-d1200ac82899",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9e80f739-d04d-4add-b4ce-36701a6b0c46",
+          "frames": [
+            {
+              "id": "8f7b04a6-c216-448e-8bbe-31737a53c55c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "78b9b5e5-72b6-454f-b9c9-66b085fe716d",
+          "frames": [
+            {
+              "id": "4fec5d35-4637-4d0b-b6c6-3473aba44925",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9bf19733-6bf1-4ae1-830b-e30102f346a9",
+          "frames": [
+            {
+              "id": "7c4872f8-01ee-4436-a752-281e3ed66ae1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7697c994-ef4f-4053-9eb2-d7be84dabe69",
+          "frames": [
+            {
+              "id": "587a2d84-cfb8-4a39-a5f5-ebbb777bbcab",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4dba54b0-59c7-4576-9cf8-7f33fbe3afe8",
+          "frames": [
+            {
+              "id": "1982ab6d-9d24-46fb-9448-47e918a89772",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "charon.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "b0b408c22a3cf5055954880482dd17dde72c2ea5"
+}

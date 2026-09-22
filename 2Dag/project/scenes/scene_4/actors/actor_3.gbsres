@@ -132,10 +132,102 @@
               "closeDelayFrames": 30
             },
             "id": "0598fcab-5f94-4b61-bd54-8a53688e64b3"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You need to get to\nthe other dock?",
+                "...",
+                "I-I guess I could\nhelp you.",
+                "As long as you \nleave me alone\nafter."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ffb19a21-47fc-4f11-b602-c8f171f11829"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "L0",
+              "trueText": "Nod your bug head",
+              "falseText": " "
+            },
+            "id": "9586ff66-1f03-4f9c-a339-dce86c1e51bf"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Fine, I'll meet \nyou by the dock.",
+                "But I'm going to\nneed more help.",
+                "I am but one \nlittle guy!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "70dd3baf-1561-4914-893a-e0d7926bb827"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal"
+            },
+            "id": "ac8414f6-d446-4ea3-82c6-18465c193bac"
           }
         ]
       },
       "id": "aa00ab7d-7c3e-4ad8-abe7-d88dfb475a68"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "2f63a930-728f-4fea-9d92-25be6a32eb94"
     }
   ],
   "startScript": [],
@@ -163,7 +255,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 37,
-  "y": 21,
+  "x": 28,
+  "y": 12,
   "_index": 2
 }

@@ -60,7 +60,7 @@
           "C'mere you tiny\nfreak.",
           "I'm going to eat\nthis thing!"
         ],
-        "__section": "text",
+        "__section": "presets",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -79,13 +79,6 @@
         "__collapse": true
       },
       "id": "f2a9dc20-d0f1-4157-8140-32591db8a5d4"
-    },
-    {
-      "command": "EVENT_ACTOR_PUSH",
-      "args": {
-        "continue": false
-      },
-      "id": "8ebdeae3-2913-4b57-b943-67b18ca604d8"
     }
   ],
   "startScript": [],
