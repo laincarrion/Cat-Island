@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "71d30df9-1433-458d-8691-93101e41db09",
+  "id": "678797d2-8ea9-437b-b61d-0cf83d7cc9fa",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,14 +15,13 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_10",
+  "symbol": "actor_3",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Sorry, no lil' \nweirdos allowed on",
-          "the private dock."
+          "Damn, my ass\nhungry"
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,7 +40,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "55f53352-aec7-44b1-99c5-7f299441561c"
+      "id": "9e91c36d-d626-4795-b146-da004b094b20"
     }
   ],
   "startScript": [],
@@ -50,7 +49,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 32,
+  "x": 4,
   "y": 26,
-  "_index": 0
+  "_index": 2
 }

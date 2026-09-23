@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "e03df77c-be7f-47fd-9b2d-0e658c174b1f",
+  "id": "bebccbb9-8174-4337-a253-57b2fdc4530e",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "59da7b4d-210c-4e25-929d-a9874357dd33",
+  "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,13 +15,20 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_5",
+  "symbol": "actor_12",
   "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "58cd1dfa-6695-45d6-b4b5-2ce2130179a5"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Eek a bug!"
+          "*You collected \nThe Package"
         ],
         "__section": "text",
         "avatarId": "",
@@ -38,220 +45,18 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
+        "closeDelayFrames": 30
       },
-      "id": "692dee57-565f-4419-9c3b-b6219978cc58"
-    },
-    {
-      "command": "EVENT_ACTOR_PUSH",
-      "args": {
-        "continue": false,
-        "__collapse": true
-      },
-      "id": "1088e1f0-fde2-4da7-b344-574353029a5a"
-    },
-    {
-      "command": "EVENT_CHOICE",
-      "args": {
-        "variable": "L1",
-        "trueText": "Boo!",
-        "falseText": "Can you help me?",
-        "__collapse": true
-      },
-      "id": "a9f159c1-e36b-4f3d-8ca2-4dd12f619082"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "L1"
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Hiss!!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "515ec3ab-ce11-4ec4-b7d8-d44d8d950144"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "$self$",
-              "emoteId": "cd2b9271-f689-4fe2-8fda-3ccc443b4c21"
-            },
-            "id": "7a04a709-dfd8-457c-86b1-c0ff66efc3b9"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "W-with what?"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "0598fcab-5f94-4b61-bd54-8a53688e64b3"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "You need to get to\nthe other dock?",
-                "...",
-                "I-I guess I could\nhelp you.",
-                "As long as you \nleave me alone\nafter."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "ffb19a21-47fc-4f11-b602-c8f171f11829"
-          },
-          {
-            "command": "EVENT_CHOICE",
-            "args": {
-              "variable": "L0",
-              "trueText": "Nod your bug head",
-              "falseText": " ",
-              "__collapse": true
-            },
-            "id": "9586ff66-1f03-4f9c-a339-dce86c1e51bf"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Fine, I'll meet \nyou by the dock.",
-                "But I'm going to\nneed more help.",
-                "I am but one \nlittle guy!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "70dd3baf-1561-4914-893a-e0d7926bb827"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "__section": "movement",
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 9
-              },
-              "y": {
-                "type": "number",
-                "value": 6
-              },
-              "collideWith": [
-                "walls"
-              ],
-              "lockDirection": [],
-              "moveType": "horizontal",
-              "__collapse": true
-            },
-            "id": "ac8414f6-d446-4ea3-82c6-18465c193bac"
-          }
-        ]
-      },
-      "id": "aa00ab7d-7c3e-4ad8-abe7-d88dfb475a68"
+      "id": "8d9d5887-734e-4165-91d1-ae1827d82e21"
     }
   ],
   "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
-      "args": {
-        "actorId": "player",
-        "operator": "<=",
-        "distance": {
-          "type": "number",
-          "value": 0
-        },
-        "otherActorId": "$self$",
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [],
-        "false": []
-      },
-      "id": "12d9b51b-2c94-4709-8ae6-c9ce5a6ad61f"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 28,
-  "y": 12,
+  "x": 5,
+  "y": 24,
   "_index": 2
 }

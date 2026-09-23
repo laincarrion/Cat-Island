@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "bce58a99-4dd8-4d73-85da-2b1a711912ed",
+  "id": "c24caa2a-4de0-4aef-a95f-d55e725bf8f6",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "59da7b4d-210c-4e25-929d-a9874357dd33",
+  "spriteSheetId": "20dbeeaa-b5c8-4307-baba-7dae30b25409",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,14 +15,13 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_14",
+  "symbol": "actor_2",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Damn, I sure would\nlove to chase a",
-          "bird right about \nnow..."
+          "She's sleeping..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -42,43 +41,17 @@
         "closeDelayFrames": 30,
         "__collapse": true
       },
-      "id": "1f5c871d-4de2-4113-b5bb-47934e4586f8"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "*Would you like to\nthrow your bird\ncostume?"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
-      },
-      "id": "0b014246-ccd0-4a2b-9af1-1b7c3f28c699"
+      "id": "0c0dd086-953a-4657-8152-f5fbeef31e08"
     },
     {
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "L0",
-        "trueText": "Throw it",
-        "falseText": "",
+        "trueText": "Wake",
+        "falseText": "Leave her alone",
         "__collapse": true
       },
-      "id": "e775634b-c460-4d6d-8df9-b07cad8b21d7"
+      "id": "c481e8ad-1ab9-43cb-b57d-17adb1fb9fea"
     },
     {
       "command": "EVENT_IF",
@@ -94,8 +67,8 @@
             "value": 1
           }
         },
-        "__collapseElse": false,
-        "__collapse": false
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -103,7 +76,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "*You threw the\nbird costume."
+                "Bro, what the fuck\nI'm fucking eepy!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -122,13 +95,15 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "c0f763c0-eddf-4665-ab87-36753a20b8a6"
-          },
+            "id": "be8a214d-7ec8-41dd-b880-2d479d79085a"
+          }
+        ],
+        "false": [
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Oh holy shit!"
+                "Zzzz...."
               ],
               "__section": "text",
               "avatarId": "",
@@ -147,33 +122,11 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "4c2ebd97-4583-4bae-8e13-402820adeb98"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "__section": "movement",
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 29
-              },
-              "y": {
-                "type": "number",
-                "value": 14
-              },
-              "collideWith": [
-                "walls"
-              ],
-              "lockDirection": [],
-              "moveType": "horizontal"
-            },
-            "id": "20d61896-8745-44d2-80c5-f4488958789a"
+            "id": "1424defa-9967-4244-9462-4d0a55401452"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "9665a049-0697-40b2-be95-297b690f97ef"
+      "id": "6f4f2973-37d4-438e-a0ef-f252b183753a"
     }
   ],
   "startScript": [],
@@ -182,7 +135,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 6,
-  "y": 14,
-  "_index": 4
+  "x": 25,
+  "y": 6,
+  "_index": 1
 }

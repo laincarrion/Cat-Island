@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "c24caa2a-4de0-4aef-a95f-d55e725bf8f6",
+  "id": "c23e4dd8-d34d-4360-bc69-94fa0c6cb213",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "20dbeeaa-b5c8-4307-baba-7dae30b25409",
+  "spriteSheetId": "67ed9bdf-32a2-4856-aec3-b3289eddbab9",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,13 +15,13 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_2",
+  "symbol": "actor_4",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "She's sleeping..."
+          "Mrrp?"
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,101 +41,91 @@
         "closeDelayFrames": 30,
         "__collapse": true
       },
-      "id": "0c0dd086-953a-4657-8152-f5fbeef31e08"
+      "id": "96b9689d-8b7a-4d62-a8ab-6de626508f31"
     },
     {
-      "command": "EVENT_CHOICE",
+      "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "variable": "L0",
-        "trueText": "Wake",
-        "falseText": "Leave her alone",
+        "actorId": "$self$",
+        "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727",
         "__collapse": true
       },
-      "id": "c481e8ad-1ab9-43cb-b57d-17adb1fb9fea"
+      "id": "cd7e1251-17f2-4340-a719-24ea0da39cc1"
     },
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_TEXT",
       "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "L0"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 1
-          }
-        },
-        "__collapseElse": true,
+        "text": [
+          "Woah, a bug...",
+          "C'mere you tiny\nfreak.",
+          "I'm going to eat\nthis thing!"
+        ],
+        "__section": "presets",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
         "__collapse": true
+      },
+      "id": "f2a9dc20-d0f1-4157-8140-32591db8a5d4"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "$self$",
+        "operator": "<",
+        "distance": {
+          "type": "number",
+          "value": 5
+        },
+        "otherActorId": "player",
+        "__collapseElse": true
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
             "args": {
-              "text": [
-                "Bro, what the fuck\nI'm fucking eepy!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "actorId": "player",
+              "operator": "<=",
+              "distance": {
+                "type": "number",
+                "value": 0
+              },
+              "otherActorId": "$self$",
+              "__collapseElse": true
             },
-            "id": "be8a214d-7ec8-41dd-b880-2d479d79085a"
+            "children": {
+              "true": [],
+              "false": []
+            },
+            "id": "0f8a9b82-9675-4f6a-9c1a-e20992d884b2"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Zzzz...."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "1424defa-9967-4244-9462-4d0a55401452"
-          }
-        ]
+        "false": []
       },
-      "id": "6f4f2973-37d4-438e-a0ef-f252b183753a"
+      "id": "498b5049-9e97-461d-a5e8-efa005163243"
     }
   ],
-  "startScript": [],
-  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 25,
-  "y": 6,
+  "x": 57,
+  "y": 11,
   "_index": 1
 }
