@@ -40,7 +40,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "a2823484-3c7c-42b0-aa66-87b55039b60e"
     },
@@ -66,7 +66,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "0554f7ba-10ee-41ef-9a92-e73cae6bd27d"
     },
@@ -75,7 +76,8 @@
       "args": {
         "variable": "L0",
         "trueText": "I need help!",
-        "falseText": "Oh, sorry..."
+        "falseText": "Oh, sorry...",
+        "__collapse": true
       },
       "id": "bb8dc87d-45e9-4a9e-98cf-1406e397a66a"
     },
@@ -86,7 +88,8 @@
           "type": "variable",
           "value": "L0"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -130,9 +133,9 @@
               },
               "y": {
                 "type": "number",
-                "value": 6
+                "value": 7
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "d957a602-94f0-4978-b412-ac6568f2928a"
           },

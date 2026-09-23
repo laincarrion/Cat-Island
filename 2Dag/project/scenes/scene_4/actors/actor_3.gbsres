@@ -68,8 +68,8 @@
           "type": "variable",
           "value": "L1"
         },
-        "__collapseElse": false,
-        "__collapse": false
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -166,7 +166,8 @@
             "args": {
               "variable": "L0",
               "trueText": "Nod your bug head",
-              "falseText": " "
+              "falseText": " ",
+              "__collapse": true
             },
             "id": "9586ff66-1f03-4f9c-a339-dce86c1e51bf"
           },
@@ -193,7 +194,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "70dd3baf-1561-4914-893a-e0d7926bb827"
           },
@@ -208,26 +210,20 @@
               },
               "y": {
                 "type": "number",
-                "value": 7
+                "value": 6
               },
               "collideWith": [
                 "walls"
               ],
               "lockDirection": [],
-              "moveType": "horizontal"
+              "moveType": "horizontal",
+              "__collapse": true
             },
             "id": "ac8414f6-d446-4ea3-82c6-18465c193bac"
           }
         ]
       },
       "id": "aa00ab7d-7c3e-4ad8-abe7-d88dfb475a68"
-    },
-    {
-      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "2f63a930-728f-4fea-9d92-25be6a32eb94"
     }
   ],
   "startScript": [],
