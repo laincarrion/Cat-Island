@@ -28,7 +28,7 @@
         },
         "otherActorId": "$self$",
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -57,7 +57,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "f9f9bf38-2594-48f7-b2a4-e90db419990c"
           },

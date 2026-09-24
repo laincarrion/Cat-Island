@@ -1,0 +1,56 @@
+{
+  "_resourceType": "trigger",
+  "id": "b412d20c-b7b6-4abc-8c08-0ff9e1cb2736",
+  "name": "",
+  "prefabId": "",
+  "x": 9,
+  "y": 8,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "e03df77c-be7f-47fd-9b2d-0e658c174b1f",
+        "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+      },
+      "id": "61b9f6cf-7617-414b-babe-7b3adbc1e67f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Yippee! You're \nhere!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1d129a0d-e8b1-45af-96e7-666db6802a24"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a5cc8403-3309-481c-94aa-42af82e217d3"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}
