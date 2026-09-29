@@ -1,2 +1,2 @@
-# 2dag
+# Cat Island
 2D adventure game made in gbstudio
