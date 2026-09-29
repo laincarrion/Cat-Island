@@ -85,6 +85,21 @@
       "id": "e03df77c-be7f-47fd-9b2d-0e658c174b1f__L1",
       "name": "Local 1",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "5a200eef-94ff-4b39-a4fc-f35f6a59e17d__L0",
+      "name": "talk to freak",
+      "symbol": "var_talk_to_freak"
+    },
+    {
+      "id": "db63b130-c42c-4c25-a3a8-5b13f2b8cf49__L1",
+      "name": "get package",
+      "symbol": "var_get_package"
+    },
+    {
+      "id": "db63b130-c42c-4c25-a3a8-5b13f2b8cf49__L0",
+      "name": "getpackage",
+      "symbol": "var_getpackage"
     }
   ],
   "constants": []

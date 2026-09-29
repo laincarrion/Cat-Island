@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
-  "name": "torch",
-  "symbol": "sprite_torch",
+  "id": "99574484-8acf-471a-b6e7-9dafb87b23d2",
+  "name": "tux-sitting copy",
+  "symbol": "sprite_tux_sitting_copy",
   "states": [
     {
-      "id": "80876dac-432a-469d-aab7-a9e755455904",
+      "id": "2c22495b-a514-486c-9e4d-42e46aa0b84d",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "128b1bb2-fc70-421d-a4b7-a480d4f3fb6e",
+          "id": "6868848c-5042-4ccd-a36c-6140ecd7437f",
           "frames": [
             {
-              "id": "72897310-eb90-4959-961e-c7857474d9fb",
+              "id": "0ddc75ff-00a4-49f2-b61f-f9f24c9d70da",
               "tiles": [
                 {
-                  "id": "f94e17e5-a43a-4cf0-a11e-9babb61196fc",
+                  "id": "69f5440d-6f4a-4dd3-9103-228b18c957b7",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "424d6d54-e9f8-4ec8-8f51-ea102daf8f2f",
+                  "id": "f564978c-6b21-4288-a8a3-3e817a1ece1d",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "0858f839-a346-4c40-a2d8-f35762488276",
+          "id": "90580b39-4af0-4168-8769-358ac039312f",
           "frames": [
             {
-              "id": "a4dca326-7b48-4d28-bde3-ca534d96543b",
+              "id": "f0931c5e-af6e-4354-9c73-d80605f67bbf",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b6e75e1d-e429-4cf3-b9b0-cf5064327a61",
+          "id": "e097efad-4cb8-4ba5-9f69-4d2f7b96ae12",
           "frames": [
             {
-              "id": "55f8972d-3815-4d6d-8022-ff009bd285ad",
+              "id": "49ef48f1-fe56-4fb6-a371-e4e12bff7ddc",
               "tiles": []
             }
           ]
         },
         {
-          "id": "1079d1ca-cf02-4cd8-b752-7d7d4cc7543b",
+          "id": "28d560d2-6f18-4c6d-81e6-c0c7852724bb",
           "frames": [
             {
-              "id": "fa4d713d-99bf-4806-992c-729285261942",
+              "id": "86e6dae8-4fa2-44de-abca-06c7229eb9ab",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d051b0d5-563f-4084-8f4f-279ae337eb55",
+          "id": "a3bb59d5-74d2-4721-bb40-6991bc6518ef",
           "frames": [
             {
-              "id": "67096096-2eaf-4013-9e8a-38a67ae4606c",
+              "id": "51de5660-aae2-4839-93fb-3b360f3529ff",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d9b28785-6b43-45e5-a320-e15e76d97dd8",
+          "id": "a130c5c7-66b4-4d69-b871-13ebb06ce5ee",
           "frames": [
             {
-              "id": "fee0ed83-e9bf-4301-ad37-5a51e0f31c16",
+              "id": "395f90e2-9540-46ee-bd18-7ca5bcaa1ded",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f890ce35-a634-4e37-bea7-0ae0eb9f1b5d",
+          "id": "2e5826e0-efca-482d-9f1d-ba5c58f35bf5",
           "frames": [
             {
-              "id": "db322dcc-6715-4bb0-b72d-bb5211d30d2c",
+              "id": "e23dec8b-ee7d-44b4-b63b-50e50d3cbd25",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0bb49d82-309d-4525-ae27-58494c53e858",
+          "id": "b883e343-b746-4734-9adf-6082b3c78c56",
           "frames": [
             {
-              "id": "b1bf0a8f-98ba-435f-a968-9c24f8036da7",
+              "id": "42088a63-da8e-4ea5-bb35-f756672a0cad",
               "tiles": []
             }
           ]
@@ -122,8 +122,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "torch.png",
+  "filename": "tux-sitting copy.png",
   "width": 16,
   "height": 16,
-  "checksum": "7115d29144680ee075cf63709a5bd562d327b0a4"
+  "checksum": "e4f65947bcec91555618af003700f97d921f6192"
 }

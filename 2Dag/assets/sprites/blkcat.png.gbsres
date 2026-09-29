@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "a0442b6a-634f-44da-9962-77938e3ed839",
-  "name": "radio",
-  "symbol": "sprite_radio",
+  "id": "a245156c-2615-4618-a898-c8fc356e2b7f",
+  "name": "blkcat",
+  "symbol": "sprite_blkcat",
   "states": [
     {
-      "id": "669e757d-8513-46b9-8a86-b961e93f3ecc",
+      "id": "2a42dac6-6144-4a62-92cf-65dd76fe4ef9",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "d47c471a-a19c-4c6d-bb3c-85446350f166",
+          "id": "92154ee1-bb1e-416b-a9d0-964e56f4d93d",
           "frames": [
             {
-              "id": "d00cd2f0-e994-42fc-aaa8-2c76f4aab6a2",
+              "id": "3726f7d2-fa18-4ff2-b168-a53165e3fc12",
               "tiles": [
                 {
-                  "id": "59d957c8-da90-429e-a029-a0c501eb176f",
+                  "id": "3446cc96-23d4-48ff-a242-35336ab30e76",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "901a935f-84e5-46f4-b9ae-ebf8f5c6f86f",
+                  "id": "4f7fa668-b23d-43af-a84a-b1d23c6973fc",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "6c6a305f-93ec-4732-b362-bbdbefba41e4",
+          "id": "cd10b7bc-27ea-458b-92e8-fa6844ab3a9c",
           "frames": [
             {
-              "id": "a6129aea-fc71-4796-b6b0-fc8b6606c92d",
+              "id": "531b0c5b-9e03-45bf-bd04-0625513f8239",
               "tiles": []
             }
           ]
         },
         {
-          "id": "9225b505-4f82-49f5-9955-334d27123abe",
+          "id": "091e1cf6-1661-4ac7-9f26-10c9cfab5841",
           "frames": [
             {
-              "id": "df3b23e2-ff30-480f-ad81-551f26adadec",
+              "id": "92d1ac17-f0df-4f1a-9fd5-779f1d752aa0",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f5b9085d-6692-49a4-9544-9f418079ccd7",
+          "id": "79413ee8-e67b-418e-8b75-b09f12f14336",
           "frames": [
             {
-              "id": "953111c2-bd13-4846-8244-fd078a66db85",
+              "id": "e2f3a323-4e3c-4d2c-aca9-7494d3c1354b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "99afa06d-7f6a-4990-84d8-882710cdd16b",
+          "id": "261b6283-3bfc-4cc3-9590-7955584378d0",
           "frames": [
             {
-              "id": "4ee7fef0-23b1-465b-a9e3-7767bb8f84f1",
+              "id": "1f974739-cc74-4f1a-bb82-5afe4b34a51d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0160b522-8d24-47cb-b25f-875cd97bcb2a",
+          "id": "58b837b7-a632-44b7-8cda-9ab8b6466912",
           "frames": [
             {
-              "id": "03312046-4923-4fbc-90c6-ebd38f9b2ee6",
+              "id": "8fccad16-4506-4bd0-ae54-8b021a200b41",
               "tiles": []
             }
           ]
         },
         {
-          "id": "dd3d4f20-4030-4365-9c2a-df90ff2d97b2",
+          "id": "cbf042d1-a491-4877-b439-4ec5fa1ae0a7",
           "frames": [
             {
-              "id": "0b3d6eb7-508a-47e4-b80d-39182eb4ab15",
+              "id": "26bc48ff-9ec5-4f1f-a265-7b80aee92022",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4d798ee4-062b-48e3-a897-09aa1fb1674a",
+          "id": "812c8f6f-1f05-4808-95bd-54a6eafc4c40",
           "frames": [
             {
-              "id": "b908d5f8-e48c-4712-9a35-decfe86a098e",
+              "id": "c907d019-57dc-42e5-b581-062a8875ec56",
               "tiles": []
             }
           ]
@@ -122,8 +122,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "radio.png",
+  "filename": "blkcat.png",
   "width": 16,
   "height": 16,
-  "checksum": "ae9943b8ed1e48fe22fafe87bf1b64245dcbd31c"
+  "checksum": "732453aac5f6919b615d129b46af2beb864d3822"
 }

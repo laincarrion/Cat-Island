@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
-  "name": "dog",
-  "symbol": "sprite_dog",
+  "id": "0eceea2d-1c08-44ae-9384-7d8e30d71677",
+  "name": "sitting3",
+  "symbol": "sprite_sitting3",
   "states": [
     {
-      "id": "effe38d3-3f0d-453b-aec6-a8b80a4d8f19",
+      "id": "3aa9a021-0034-43a0-9a47-e04cd169aedd",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "c8001a7b-3679-497a-b8e1-2da77a956bc3",
+          "id": "1940cbb6-868f-45d5-9410-3b167f1b8a15",
           "frames": [
             {
-              "id": "2e4cc7a2-aa38-4ede-8552-c0e3c0284000",
+              "id": "7e1e8663-cd0f-4c5e-8e95-59b097b659e0",
               "tiles": [
                 {
-                  "id": "ddbdf5a9-8bd3-4fd4-9677-aeecf3f066de",
+                  "id": "efb00b1f-4590-4019-86dd-ce81c632e066",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "20d10f8e-aeee-4e24-ad59-d46c469e0d6c",
+                  "id": "3e1348e9-7e49-478a-8e99-ce143f6b733a",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "e4d613c8-6356-4f5a-97ae-8bb214f92191",
+          "id": "817439a4-4a66-449c-ab09-7cfea9c910b0",
           "frames": [
             {
-              "id": "4c63a5a2-913a-4d42-862a-a5c23be79c6c",
+              "id": "89e7474b-de0b-47bd-942a-c15fe922646b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0bb24e2b-55d7-46ab-8f7d-d232fffc59f7",
+          "id": "591e01f7-426f-434b-91dc-e9f033ca1e0f",
           "frames": [
             {
-              "id": "7c3ce450-b999-4d26-b63d-b78d0f00c24a",
+              "id": "ff327a98-132b-4640-9a3b-189d48e8c4e3",
               "tiles": []
             }
           ]
         },
         {
-          "id": "3bc154df-5221-4dd5-bacd-510470482dfe",
+          "id": "e78330be-4d93-4c5f-afdc-cd9d212cc2a9",
           "frames": [
             {
-              "id": "46cc3c48-5140-4465-869e-0e218734283f",
+              "id": "59e77322-f0d0-4f45-8362-f3cf6da6e7ec",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c9c60e5a-b40b-4728-843e-dc457399ca0f",
+          "id": "e75fd048-a31f-4e06-a523-5747640bae27",
           "frames": [
             {
-              "id": "38c8303b-c914-4bb9-905b-9998e66a3170",
+              "id": "51f0896a-b93b-4d9a-9eb4-507a3118138b",
               "tiles": []
             }
           ]
         },
         {
-          "id": "da097b20-9bd6-4a16-9aea-d7e972106233",
+          "id": "faacb261-d41e-4c56-a3e3-ad35c6a3eeea",
           "frames": [
             {
-              "id": "9fb3c3b4-090f-4718-862a-b5d21e504d15",
+              "id": "0c7db343-f110-40da-8a16-fa9e388c425c",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e61e9abe-b7ae-49d0-9bba-f21e2bb16ee1",
+          "id": "ff907df8-0c04-4ac6-8fdf-ec200c19a0c1",
           "frames": [
             {
-              "id": "1ce5015d-666c-411a-bf9c-b340cedb7e01",
+              "id": "e2bfa67b-84e6-4190-a240-a4f15fde8c06",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e730362c-19d2-40c1-8804-6c0a2286d831",
+          "id": "c685a6b7-d915-4059-9fec-12b3190d2f3b",
           "frames": [
             {
-              "id": "f3890863-9e3a-4497-b8fe-3f80274f9a40",
+              "id": "d82160ed-bd73-406e-ab99-5a26ee43688a",
               "tiles": []
             }
           ]
@@ -122,8 +122,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "dog.png",
+  "filename": "sitting3.png",
   "width": 16,
   "height": 16,
-  "checksum": "d9bfa8cf4e196a4b89abc8811e1157b8cf3e4380"
+  "checksum": "6acb46076bd0c622fb6966dbaae9daec40d3a57a"
 }

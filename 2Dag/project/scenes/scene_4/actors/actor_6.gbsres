@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "dbc27dd7-2326-4120-875b-f4b7b74b6186",
+  "id": "895e30f8-a217-4fcd-9b67-34b343d04fa2",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,14 +15,14 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_17",
+  "symbol": "actor_20",
   "script": [
     {
       "command": "EVENT_ACTOR_PUSH",
       "args": {
         "continue": false
       },
-      "id": "82814a6d-a4e6-4a8b-85aa-3ba2d3c56302"
+      "id": "ab0382b1-a8b3-4260-a39a-43ad109cae4b"
     }
   ],
   "startScript": [],
@@ -31,7 +31,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 9,
-  "y": 29,
-  "_index": 2
+  "x": 22,
+  "y": 25,
+  "_index": 5
 }

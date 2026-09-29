@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "71d30df9-1433-458d-8691-93101e41db09",
+  "id": "80fd2069-4e6d-43d2-9a7b-2b4c50739478",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "c1ff8470-9c29-4118-bb97-dcdcc24779b1",
+  "spriteSheetId": "65be4399-6eff-40f4-85e1-1cf0b70dcda5",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,58 +15,15 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_10",
-  "script": [
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Sorry, no lil' \nweirdos allowed on",
-          "the private dock."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": false
-      },
-      "id": "55f53352-aec7-44b1-99c5-7f299441561c"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "L0"
-        },
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [],
-        "false": []
-      },
-      "id": "3390ecfc-69c7-4dcb-8b1e-4acb389c7426"
-    }
-  ],
+  "symbol": "actor_15",
+  "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 32,
+  "x": 5,
   "y": 26,
   "_index": 0
 }

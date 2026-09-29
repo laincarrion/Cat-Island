@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "bebccbb9-8174-4337-a253-57b2fdc4530e",
+  "id": "9d6ba10f-cd98-4709-a561-e14529033e3e",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
+  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,20 +15,14 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_12",
+  "symbol": "actor_27",
   "script": [
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "58cd1dfa-6695-45d6-b4b5-2ce2130179a5"
-    },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "*You collected \nThe Package"
+          "Hi",
+          "I'm from the\nOG game."
         ],
         "__section": "text",
         "avatarId": "",
@@ -47,7 +41,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "8d9d5887-734e-4165-91d1-ae1827d82e21"
+      "id": "1f6d62dd-f083-4a73-bc6b-c7085d8996a4"
     }
   ],
   "startScript": [],
@@ -56,7 +50,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 24,
-  "_index": 2
+  "x": 29,
+  "y": 6,
+  "_index": 6
 }

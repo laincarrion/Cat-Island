@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "db63b130-c42c-4c25-a3a8-5b13f2b8cf49",
+  "id": "5a200eef-94ff-4b39-a4fc-f35f6a59e17d",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "20dbeeaa-b5c8-4307-baba-7dae30b25409",
+  "spriteSheetId": "a245156c-2615-4618-a898-c8fc356e2b7f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,19 +15,22 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_11",
+  "symbol": "actor_16",
   "script": [
     {
-      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "command": "EVENT_IF",
       "args": {
-        "actorId": "player",
-        "operator": "<=",
-        "distance": {
-          "type": "number",
-          "value": 5
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "true"
+          }
         },
-        "otherActorId": "$self$",
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
@@ -36,10 +39,115 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Oh!",
-                "Hey you",
+                "Erm...You need \nhelp?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "2ba521b9-8dbd-47f3-bde6-05fc540fa0ee"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "L1",
+              "trueText": "Reset map",
+              "falseText": "No",
+              "__collapse": false
+            },
+            "id": "a0a3d7d3-6720-4ec0-b318-05d422bd8b82"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L1"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "503a9a59-8b26-4ce1-985d-02b4ab5ed1a4",
+                    "x": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "85ec77f1-2da8-4de5-af7d-07128a0f43a0"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Then get back out\nthere!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "d6f1e5f2-f056-4065-9f56-13b5d2178d2f"
+                }
+              ]
+            },
+            "id": "ea63e17f-c191-420e-98cb-8362a2754b36"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hi.",
+                "Uh, if you need \nhelp I can...",
+                "Uh... do that.",
                 "...",
-                "Birdie, yea you"
+                "Er, have fun."
               ],
               "__section": "text",
               "avatarId": "",
@@ -59,269 +167,21 @@
               "closeDelayFrames": 30,
               "__collapse": false
             },
-            "id": "f9f9bf38-2594-48f7-b2a4-e90db419990c"
+            "id": "3f7d6f00-9457-4f0c-a141-5c3c302ce351"
           },
           {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Hey, I need a\nfavor from you."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "14c1ade8-b12d-447c-bcf7-0e9badb88527"
-          },
-          {
-            "command": "EVENT_CHOICE",
+            "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "L0",
-              "trueText": "What's up?",
-              "falseText": "I'm busy"
+              "value": {
+                "type": "true"
+              }
             },
-            "id": "1781d8b9-b9ae-4b69-b52d-59595784e6c5"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L0"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 1
-                }
-              },
-              "__collapseElse": false,
-              "__collapse": false
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "I need you to \ndeliver a uh...",
-                      "package... Yeah,\na package!",
-                      "You think you can \ndo that, Birdie?"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": true
-                  },
-                  "id": "0dc9cccf-1e90-4544-8535-3d8ff4f6af15"
-                },
-                {
-                  "command": "EVENT_CHOICE",
-                  "args": {
-                    "variable": "L0",
-                    "trueText": "Aye aye captain",
-                    "falseText": "What package?",
-                    "__collapse": true
-                  },
-                  "id": "2df6ca5e-b70b-4de1-b496-bc64a35e3636"
-                },
-                {
-                  "command": "EVENT_IF",
-                  "args": {
-                    "condition": {
-                      "type": "eq",
-                      "valueA": {
-                        "type": "variable",
-                        "value": "L0"
-                      },
-                      "valueB": {
-                        "type": "number",
-                        "value": 1
-                      }
-                    },
-                    "__collapseElse": false,
-                    "__collapse": false
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "Good!"
-                          ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "5218f0b5-4c1a-4973-a8c9-5e96f907a5d8"
-                      }
-                    ],
-                    "false": [
-                      {
-                        "command": "EVENT_TEXT",
-                        "args": {
-                          "text": [
-                            "No questions!"
-                          ],
-                          "__section": "text",
-                          "avatarId": "",
-                          "minHeight": 4,
-                          "maxHeight": 7,
-                          "textX": 1,
-                          "textY": 1,
-                          "textHeight": 5,
-                          "position": "bottom",
-                          "clearPrevious": true,
-                          "showFrame": "true",
-                          "speedIn": -1,
-                          "speedOut": -1,
-                          "closeWhen": "key",
-                          "closeButton": "a",
-                          "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
-                        },
-                        "id": "caa584b0-5575-4d04-b894-4b05fc201c2d"
-                      }
-                    ]
-                  },
-                  "id": "37f07ea4-ab15-44ec-8fc6-5bd4921f1a5f"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Now, here's the\npackage.",
-                      "Just deliver to \nthe kitty on the\nprivate dock.",
-                      "Then let me know \nwhen you're done!",
-                      "*You received\nThe Package"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": true
-                  },
-                  "id": "af626449-6061-4a99-8692-567bd870f320"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "...",
-                      "What?",
-                      "The guard?",
-                      "Yeah, yeah, just\nsay you got a",
-                      "package for \nMiss Ivy.",
-                      "The fatty will let\nyou in."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__collapse": true
-                  },
-                  "id": "8ebcf694-e5e1-47e6-b2e0-52c3833a099d"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "I'll be here when\nyou're ready."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "65d8d020-24dd-4572-9c64-22bfed17895c"
-                }
-              ]
-            },
-            "id": "bd383995-6a1b-4a48-aba6-8fe86be98f9f"
+            "id": "90e4e046-7583-40b4-893a-e423e4a8a831"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "b8a9a74e-7e1f-4e17-a6fb-58aa5fa7e8be"
+      "id": "d7e4892f-76ef-4b91-ad2b-c48c10cf6dae"
     }
   ],
   "startScript": [],
@@ -330,7 +190,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 25,
-  "y": 3,
+  "x": 15,
+  "y": 4,
   "_index": 1
 }

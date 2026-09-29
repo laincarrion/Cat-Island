@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "bebccbb9-8174-4337-a253-57b2fdc4530e",
+  "id": "e7a2bbbc-8533-42ce-bc2c-22026d169436",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
+  "spriteSheetId": "a245156c-2615-4618-a898-c8fc356e2b7f",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,20 +15,13 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_12",
+  "symbol": "actor_28",
   "script": [
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "58cd1dfa-6695-45d6-b4b5-2ce2130179a5"
-    },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "*You collected \nThe Package"
+          "Hai :3"
         ],
         "__section": "text",
         "avatarId": "",
@@ -47,7 +40,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "8d9d5887-734e-4165-91d1-ae1827d82e21"
+      "id": "04250a5a-f31f-49e1-8ab5-4b9ff523176b"
     }
   ],
   "startScript": [],
@@ -56,7 +49,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 24,
-  "_index": 2
+  "x": 4,
+  "y": 14,
+  "_index": 4
 }

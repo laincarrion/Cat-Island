@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "d942032d-1178-4bdf-b975-2cf1d86d3636",
+  "id": "a02548d0-7850-42c2-ac30-f4c5f7627517",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "c1ff8470-9c29-4118-bb97-dcdcc24779b1",
+  "spriteSheetId": "65be4399-6eff-40f4-85e1-1cf0b70dcda5",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,13 +15,13 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_9",
+  "symbol": "actor_25",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "mrow"
+          "Get to work."
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,52 +40,16 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "1fe6b1c6-ef88-4859-8692-f8e41085913d"
+      "id": "4d201044-1b5b-4208-9fce-b40e2d23db4e"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "WAIT",
-          "...",
-          "Sorry, but you \nhave to wear this\noutfit",
-          "Them's the rules \nif your not a cat!"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "77eb1fb9-a18f-4169-a1bb-c7bbe847724f"
-    },
-    {
-      "command": "EVENT_PLAYER_SET_SPRITE",
-      "args": {
-        "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32"
-      },
-      "id": "2ccefb7c-2af3-44c6-943f-98ca9e9f7da8"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 53,
-  "y": 3,
+  "x": 42,
+  "y": 27,
   "_index": 5
 }

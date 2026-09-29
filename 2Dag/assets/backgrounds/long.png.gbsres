@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "325a1345-c275-4bcc-be43-805079efc418",
+  "name": "long",
+  "symbol": "bg_long",
+  "tileColors": "",
+  "filename": "long.png",
+  "width": 137,
+  "height": 18,
+  "imageWidth": 1096,
+  "imageHeight": 144
+}

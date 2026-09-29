@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "775865fc-a4e0-4bd9-aef5-01c23d23fbf8",
+  "name": "island3",
+  "symbol": "bg_island3",
+  "tileColors": "",
+  "filename": "island3.png",
+  "width": 31,
+  "height": 32,
+  "imageWidth": 248,
+  "imageHeight": 256
+}

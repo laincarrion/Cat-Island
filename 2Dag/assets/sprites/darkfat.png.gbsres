@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
-  "name": "signpost",
-  "symbol": "sprite_signpost",
+  "id": "0e28a26c-d75a-427d-81ce-d906fcb3f34a",
+  "name": "darkfat",
+  "symbol": "sprite_darkfat",
   "states": [
     {
-      "id": "26aa7382-5220-493c-a3e3-e06fc74ba92e",
+      "id": "950ea7ed-c3fe-45ee-bbfa-2135c6ea3018",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "d0ede62b-0637-4662-9f47-8f4895857eb3",
+          "id": "385f868e-4bc7-4df3-a18f-d7dd19fbb49e",
           "frames": [
             {
-              "id": "26d56b3c-b634-4958-ae80-9c2be7b12731",
+              "id": "21ed8b48-89f2-4b5a-b4eb-e1aadc66ccaf",
               "tiles": [
                 {
-                  "id": "8f559fb1-8e1a-416e-92b8-4eb6b441ce7b",
+                  "id": "a88bd7b5-7753-400a-a7b5-a31ce56f047c",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "eab76d59-7933-424d-8bbd-55756d7bfe9c",
+                  "id": "726d149c-5103-412c-aff3-04eafac51200",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "72f8cf0d-f0fa-47a3-92ff-dc7ec2758747",
+          "id": "557ddba1-db02-4f03-a590-018649d53048",
           "frames": [
             {
-              "id": "c5675a28-85ae-49d7-b544-7406e6dec099",
+              "id": "bf30d5a7-0892-420b-9613-64eb117c2629",
               "tiles": []
             }
           ]
         },
         {
-          "id": "97e15f8e-dd85-4b0f-a033-945d448c4692",
+          "id": "98e4028e-a183-4e6f-8966-3ec0c4b7dcd6",
           "frames": [
             {
-              "id": "fbbba398-736a-4199-afa4-bf2f3b7518ef",
+              "id": "db2f7e58-05fd-4a2f-a101-8648acaa1819",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b521b0ef-d8ca-4a1f-80cc-55ae38aaee27",
+          "id": "eaf5ff48-0b6d-48ca-a9ab-19505b2c0a2c",
           "frames": [
             {
-              "id": "1b8716ca-2c2b-4a85-856b-fb91febcdc75",
+              "id": "143e6174-5d72-482e-b7db-9a7a207cbe80",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0e470596-b05b-4fe6-a3c8-7ea5407d55bf",
+          "id": "10359b97-9dad-4267-9476-7faa9e43457b",
           "frames": [
             {
-              "id": "06d2aa64-d376-402a-983f-c461149dc7e7",
+              "id": "abbae0e7-0401-4cf9-8808-51d2f4767855",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e8e3f90c-bda3-4bf1-ae79-69adc4e04c1f",
+          "id": "eceba100-df94-4112-8bbb-4405f7dc7b39",
           "frames": [
             {
-              "id": "dc98c9d0-5952-4a2b-9950-d71dfc6720e8",
+              "id": "b9add8e7-d26f-46a9-a9e0-cf5c11d0c30f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b3bb9a78-5b3d-457c-8c35-7d267e9ce876",
+          "id": "8702fae6-a37f-4808-9a8e-76e051df8ed0",
           "frames": [
             {
-              "id": "f45fc81e-8c07-43b5-9dd4-0bc1d71fc703",
+              "id": "11a41d54-0ea8-426e-9d39-15ad68a7fd4d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c30b2806-f380-455d-be7e-49a708ff3b82",
+          "id": "035d61bb-e881-45e5-85bc-c7b2019f7f99",
           "frames": [
             {
-              "id": "12911416-7462-4bcf-a77e-b78159e50a46",
+              "id": "bc9c55f1-b71b-486b-806e-5fdb79fcfaae",
               "tiles": []
             }
           ]
@@ -122,8 +122,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "signpost.png",
+  "filename": "darkfat.png",
   "width": 16,
   "height": 16,
-  "checksum": "03548e2774ea7810fc8bfe85ced542f09775fcab"
+  "checksum": "8465ac35f98c594decf59e4d3718372620130fe7"
 }
