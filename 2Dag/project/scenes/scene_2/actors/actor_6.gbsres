@@ -75,7 +75,7 @@
     {
       "command": "EVENT_PLAYER_SET_SPRITE",
       "args": {
-        "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32"
+        "spriteSheetId": "2a5e8e13-4d39-4648-97d5-d1464f38886a"
       },
       "id": "2ccefb7c-2af3-44c6-943f-98ca9e9f7da8"
     }

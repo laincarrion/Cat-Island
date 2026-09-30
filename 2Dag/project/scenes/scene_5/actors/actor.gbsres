@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "9529840c-c22f-4a2e-90b2-3e160a0bcfe9",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "67ed9bdf-32a2-4856-aec3-b3289eddbab9",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_29",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Mrow",
+          "You found me!",
+          "I'll never run off\nagain",
+          "I'm sorry!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9019dca6-0d25-4e1c-8648-54ead9eea462"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 118,
+  "y": 3,
+  "_index": 0
+}
