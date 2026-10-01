@@ -271,11 +271,11 @@
               "sceneId": "90774f22-0878-463b-b046-6c99254c9a7a",
               "x": {
                 "type": "number",
-                "value": 56
+                "value": 50
               },
               "y": {
                 "type": "number",
-                "value": 3
+                "value": 4
               },
               "direction": "",
               "fadeSpeed": "2"
